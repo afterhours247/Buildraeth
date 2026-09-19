@@ -8,5 +8,5 @@ export type EquipmentSet = { id:string; name:string; effect:string; dataStatus:D
 export type EquipmentSlot = { id:string; name:string; dataStatus:DataStatus; sourceUrl:string; };
 export type ArchetypeRecord = { id:string; race:Race; characterClass:CharacterClass; name:string|null; note:string|null; dataStatus:DataStatus; sourceUrl:string; };
 export type BuildSpell = { spellId:string; modifierId:string; };
-export type BuildState = { schemaVersion:2; title:string; race:Race; characterClass:CharacterClass; level:number; spells:BuildSpell[]; equipment:Record<string,string>; notes:string; };
+export type BuildState = { schemaVersion:3; title:string; race:Race; characterClass:CharacterClass; level:number; skillPointBudget:number; treeAllocations:Record<string,number>; spells:BuildSpell[]; equipment:Record<string,string>; notes:string; };
 export type BuildConcept = { id:string; title:string; subtitle:string; race:Race; characterClass:CharacterClass; spellIds:string[]; setIds:string[]; tags:string[]; note:string; };
