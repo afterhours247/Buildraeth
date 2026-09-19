@@ -1,25 +1,12 @@
 export type Race = "Human" | "Elf" | "Minotaur";
 export type CharacterClass = "Mage" | "Brawler" | "Shadow";
-
-export type BuildState = {
-  title: string;
-  race: Race;
-  characterClass: CharacterClass;
-  spells: string[];
-  notes: string;
-};
-
-export type BuildTemplate = BuildState & {
-  id: string;
-  description: string;
-  tags: string[];
-};
-
-export type DataRecordStatus = "verified" | "placeholder" | "pending";
-
-export type BuilderOption = {
-  id: string;
-  label: string;
-  description: string;
-  status: DataRecordStatus;
-};
+export type View = "builder" | "browse" | "compendium" | "sources";
+export type DataStatus = "ea-official" | "developer-confirmed" | "demo-legacy" | "community-pending";
+export type Spell = { id:string; name:string; element:string; damageType:string|null; roles:string[]; source:string; statusEffect:string|null; dataStatus:DataStatus; sourceUrl:string; };
+export type Modifier = { id:string; spellId:string; name:string; effect:string; dataStatus:DataStatus; sourceUrl:string; };
+export type EquipmentSet = { id:string; name:string; effect:string; dataStatus:DataStatus; sourceUrl:string; };
+export type EquipmentSlot = { id:string; name:string; dataStatus:DataStatus; sourceUrl:string; };
+export type ArchetypeRecord = { id:string; race:Race; characterClass:CharacterClass; name:string|null; note:string|null; dataStatus:DataStatus; sourceUrl:string; };
+export type BuildSpell = { spellId:string; modifierId:string; };
+export type BuildState = { schemaVersion:2; title:string; race:Race; characterClass:CharacterClass; level:number; spells:BuildSpell[]; equipment:Record<string,string>; notes:string; };
+export type BuildConcept = { id:string; title:string; subtitle:string; race:Race; characterClass:CharacterClass; spellIds:string[]; setIds:string[]; tags:string[]; note:string; };

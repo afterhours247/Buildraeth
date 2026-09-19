@@ -1,0 +1,30 @@
+name: Build submission
+description: Submit a Buildraeth share link for possible inclusion in the curated build browser.
+title: "[Build] "
+labels: ["build-submission"]
+body:
+  - type: input
+    id: link
+    attributes:
+      label: Buildraeth share link
+      placeholder: https://afterhours247.github.io/Buildraeth/#build=...
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Dimraeth version / date tested
+      placeholder: EA 2026-09-19
+    validations:
+      required: true
+  - type: textarea
+    id: purpose
+    attributes:
+      label: What is the build trying to do?
+    validations:
+      required: true
+  - type: textarea
+    id: verification
+    attributes:
+      label: What should be re-verified?
+      description: Mention any Demo-era values, uncertain interactions, or unverified item effects.

@@ -1,21 +1,36 @@
 # Buildraeth
 
-Buildraeth is an unofficial, community-built character planner and build sharing tool for **Dimraeth**.
+Buildraeth is an unofficial, static-first character planner and build-sharing tool for **Dimraeth**.
 
-The goal is a fast, static-first builder that can run on GitHub Pages without requiring a backend for basic build creation and sharing.
+## Current MVP
+- Human / Elf / Minotaur × Mage / Brawler / Shadow
+- Five-spell loadout planning
+- 62 archived Demo modifiers
+- Eight equipment-slot set planning
+- 46 historical Demo/playtest spell records
+- 23 historical Demo set records
+- Searchable compendium
+- Provenance badges
+- Local autosave
+- Shareable URL builds
+- JSON import/export
+- Curated concept browser
+- GitHub issue-based build submissions
+- GitHub Pages deployment
 
-## Status
+## Data policy
+Dimraeth entered Early Access on September 15, 2026. Older Demo data remains useful but is never silently presented as current.
 
-Early prototype.
+See [DATA_SOURCES.md](DATA_SOURCES.md).
 
-## Principles
-
-- Static-first and inexpensive to host
-- Community-maintained game data
-- Builds can be shared without requiring an account
-- Clearly distinguish verified game data from placeholders or community submissions
-- Original UI inspired by Dimraeth's dark fantasy and handcrafted pixel-world atmosphere without redistributing game assets
+## Commands
+```bash
+npm install
+npm run data:validate
+npm run dev
+npm run build
+npm run data:fetch
+```
 
 ## Disclaimer
-
 Buildraeth is an unofficial fan project and is not affiliated with or endorsed by Mudtek.
