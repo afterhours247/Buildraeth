@@ -1,0 +1,641 @@
+[
+  {
+    "id": "aetherfang-phalanx",
+    "name": "Aetherfang Phalanx",
+    "element": "Aether",
+    "damageType": "Ether",
+    "roles": [
+      "Damage",
+      "AoE"
+    ],
+    "source": "Unknown",
+    "statusEffect": null,
+    "dataStatus": "demo-legacy",
+    "sourceUrl": "https://dimraeth.wiki.gg/wiki/Aether_spells"
+  },
+  {
+    "id": "aimed-shot",
+    "name": "Aimed Shot",
+    "element": "Physical",
+    "damageType": "Thrust",
+    "roles": [
+      "Damage"
+    ],
+    "source": "Unknown",
+    "statusEffect": null,
+    "dataStatus": "demo-legacy",
+    "sourceUrl": "https://dimraeth.wiki.gg/wiki/Physical_spells"
+  },
+  {
+    "id": "barrier",
+    "name": "Barrier",
+    "element": "Aether",
+    "damageType": null,
+    "roles": [
+      "Defense",
+      "Buff"
+    ],
+    "source": "Unknown",
+    "statusEffect": null,
+    "dataStatus": "demo-legacy",
+    "sourceUrl": "https://dimraeth.wiki.gg/wiki/Aether_spells"
+  },
+  {
+    "id": "bash",
+    "name": "Bash",
+    "element": "Physical",
+    "damageType": "Blunt",
+    "roles": [
+      "Damage",
+      "Interrupt"
+    ],
+    "source": "Unknown",
+    "statusEffect": null,
+    "dataStatus": "demo-legacy",
+    "sourceUrl": "https://dimraeth.wiki.gg/wiki/Physical_spells"
+  },
+  {
+    "id": "blackhole",
+    "name": "Blackhole",
+    "element": "Aether",
+    "damageType": null,
+    "roles": [
+      "Control",
+      "Utility"
+    ],
+    "source": "Unknown",
+    "statusEffect": null,
+    "dataStatus": "demo-legacy",
+    "sourceUrl": "https://dimraeth.wiki.gg/wiki/Aether_spells"
+  },
+  {
+    "id": "blizzard",
+    "name": "Blizzard",
+    "element": "Ice",
+    "damageType": "Ice",
+    "roles": [
+      "Damage",
+      "AoE"
+    ],
+    "source": "Unknown",
+    "statusEffect": "Chill",
+    "dataStatus": "demo-legacy",
+    "sourceUrl": "https://dimraeth.wiki.gg/wiki/Ice_spells"
+  },
+  {
+    "id": "boulder-toss",
+    "name": "Boulder Toss",
+    "element": "Earth",
+    "damageType": "Blunt",
+    "roles": [
+      "Damage",
+      "AoE"
+    ],
+    "source": "Race",
+    "statusEffect": null,
+    "dataStatus": "demo-legacy",
+    "sourceUrl": "https://dimraeth.wiki.gg/wiki/Earth_spells"
+  },
+  {
+    "id": "combat-medic",
+    "name": "Combat Medic",
+    "element": "Heal",
+    "damageType": null,
+    "roles": [
+      "Heal",
+      "Utility"
+    ],
+    "source": "Unknown",
+    "statusEffect": null,
+    "dataStatus": "demo-legacy",
+    "sourceUrl": "https://dimraeth.wiki.gg/wiki/Heal_spells"
+  },
+  {
+    "id": "conflagration",
+    "name": "Conflagration",
+    "element": "Fire",
+    "damageType": "Fire",
+    "roles": [
+      "Damage",
+      "AoE"
+    ],
+    "source": "Unknown",
+    "statusEffect": null,
+    "dataStatus": "demo-legacy",
+    "sourceUrl": "https://dimraeth.wiki.gg/wiki/Fire_spells"
+  },
+  {
+    "id": "cornu-charge",
+    "name": "Cornu Charge",
+    "element": "Rage",
+    "damageType": "Blunt",
+    "roles": [
+      "Damage",
+      "Rage"
+    ],
+    "source": "Race",
+    "statusEffect": null,
+    "dataStatus": "demo-legacy",
+    "sourceUrl": "https://dimraeth.wiki.gg/wiki/Rage_spells"
+  },
+  {
+    "id": "dash",
+    "name": "Dash",
+    "element": "Physical",
+    "damageType": null,
+    "roles": [
+      "Mobility",
+      "Utility"
+    ],
+    "source": "Unknown",
+    "statusEffect": null,
+    "dataStatus": "demo-legacy",
+    "sourceUrl": "https://dimraeth.wiki.gg/wiki/Physical_spells"
+  },
+  {
+    "id": "dragons-breath",
+    "name": "Dragon's Breath",
+    "element": "Fire",
+    "damageType": "Fire",
+    "roles": [
+      "Damage",
+      "AoE"
+    ],
+    "source": "Race",
+    "statusEffect": "Burning",
+    "dataStatus": "demo-legacy",
+    "sourceUrl": "https://dimraeth.wiki.gg/wiki/Fire_spells"
+  },
+  {
+    "id": "entangling-roots",
+    "name": "Entangling Roots",
+    "element": "Poison",
+    "damageType": "Strike",
+    "roles": [
+      "Control",
+      "Status"
+    ],
+    "source": "Spellbook",
+    "statusEffect": "Poison",
+    "dataStatus": "demo-legacy",
+    "sourceUrl": "https://dimraeth.wiki.gg/wiki/Poison_spells"
+  },
+  {
+    "id": "fireball",
+    "name": "Fireball",
+    "element": "Fire",
+    "damageType": "Fire",
+    "roles": [
+      "Damage",
+      "AoE"
+    ],
+    "source": "Class",
+    "statusEffect": "Burning",
+    "dataStatus": "demo-legacy",
+    "sourceUrl": "https://dimraeth.wiki.gg/wiki/Fire_spells"
+  },
+  {
+    "id": "fireburst",
+    "name": "Fireburst",
+    "element": "Fire",
+    "damageType": "Fire",
+    "roles": [
+      "Damage",
+      "AoE"
+    ],
+    "source": "Class",
+    "statusEffect": "Burning",
+    "dataStatus": "demo-legacy",
+    "sourceUrl": "https://dimraeth.wiki.gg/wiki/Fire_spells"
+  },
+  {
+    "id": "frenzy",
+    "name": "Frenzy",
+    "element": "Rage",
+    "damageType": null,
+    "roles": [
+      "Buff",
+      "Rage"
+    ],
+    "source": "Class",
+    "statusEffect": null,
+    "dataStatus": "demo-legacy",
+    "sourceUrl": "https://dimraeth.wiki.gg/wiki/Rage_spells"
+  },
+  {
+    "id": "frost-glide",
+    "name": "Frost Glide",
+    "element": "Ice",
+    "damageType": "Ice",
+    "roles": [
+      "Mobility",
+      "Status"
+    ],
+    "source": "Class",
+    "statusEffect": "Chill",
+    "dataStatus": "demo-legacy",
+    "sourceUrl": "https://dimraeth.wiki.gg/wiki/Ice_spells"
+  },
+  {
+    "id": "frost-javelin",
+    "name": "Frost Javelin",
+    "element": "Ice",
+    "damageType": "Ice",
+    "roles": [
+      "Damage",
+      "Control"
+    ],
+    "source": "Class",
+    "statusEffect": null,
+    "dataStatus": "demo-legacy",
+    "sourceUrl": "https://dimraeth.wiki.gg/wiki/Ice_spells"
+  },
+  {
+    "id": "furious-strike",
+    "name": "Furious Strike",
+    "element": "Rage",
+    "damageType": "Strike",
+    "roles": [
+      "Damage",
+      "Rage"
+    ],
+    "source": "Class",
+    "statusEffect": null,
+    "dataStatus": "demo-legacy",
+    "sourceUrl": "https://dimraeth.wiki.gg/wiki/Rage_spells"
+  },
+  {
+    "id": "gust",
+    "name": "Gust",
+    "element": "Ice",
+    "damageType": null,
+    "roles": [
+      "Control",
+      "Utility"
+    ],
+    "source": "Class",
+    "statusEffect": "Chill",
+    "dataStatus": "demo-legacy",
+    "sourceUrl": "https://dimraeth.wiki.gg/wiki/Ice_spells"
+  },
+  {
+    "id": "hail-of-arrows",
+    "name": "Hail Of Arrows",
+    "element": "Physical",
+    "damageType": "Thrust",
+    "roles": [
+      "Damage",
+      "AoE"
+    ],
+    "source": "Race",
+    "statusEffect": null,
+    "dataStatus": "demo-legacy",
+    "sourceUrl": "https://dimraeth.wiki.gg/wiki/Physical_spells"
+  },
+  {
+    "id": "hunters-trap",
+    "name": "Hunters Trap",
+    "element": "Physical",
+    "damageType": "Strike",
+    "roles": [
+      "Damage",
+      "Control"
+    ],
+    "source": "Race",
+    "statusEffect": null,
+    "dataStatus": "demo-legacy",
+    "sourceUrl": "https://dimraeth.wiki.gg/wiki/Physical_spells"
+  },
+  {
+    "id": "inferno",
+    "name": "Inferno",
+    "element": "Fire",
+    "damageType": "Fire",
+    "roles": [
+      "Damage",
+      "AoE"
+    ],
+    "source": "Class",
+    "statusEffect": null,
+    "dataStatus": "demo-legacy",
+    "sourceUrl": "https://dimraeth.wiki.gg/wiki/Fire_spells"
+  },
+  {
+    "id": "meteorite",
+    "name": "Meteorite",
+    "element": "Fire",
+    "damageType": "Fire",
+    "roles": [
+      "Damage",
+      "AoE"
+    ],
+    "source": "Unknown",
+    "statusEffect": null,
+    "dataStatus": "demo-legacy",
+    "sourceUrl": "https://dimraeth.wiki.gg/wiki/Fire_spells"
+  },
+  {
+    "id": "multi-strike",
+    "name": "Multi Strike",
+    "element": "Physical",
+    "damageType": "Strike",
+    "roles": [
+      "Damage"
+    ],
+    "source": "Race",
+    "statusEffect": null,
+    "dataStatus": "demo-legacy",
+    "sourceUrl": "https://dimraeth.wiki.gg/wiki/Physical_spells"
+  },
+  {
+    "id": "parry",
+    "name": "Parry",
+    "element": "Physical",
+    "damageType": "Strike",
+    "roles": [
+      "Defense",
+      "Utility"
+    ],
+    "source": "Unknown",
+    "statusEffect": null,
+    "dataStatus": "demo-legacy",
+    "sourceUrl": "https://dimraeth.wiki.gg/wiki/Physical_spells"
+  },
+  {
+    "id": "poison-mist",
+    "name": "Poison Mist",
+    "element": "Poison",
+    "damageType": "Decay",
+    "roles": [
+      "Damage",
+      "AoE"
+    ],
+    "source": "Spellbook",
+    "statusEffect": "Poison",
+    "dataStatus": "demo-legacy",
+    "sourceUrl": "https://dimraeth.wiki.gg/wiki/Poison_spells"
+  },
+  {
+    "id": "power-hook",
+    "name": "Power Hook",
+    "element": "Physical",
+    "damageType": "Blunt",
+    "roles": [
+      "Damage",
+      "Control"
+    ],
+    "source": "Class",
+    "statusEffect": null,
+    "dataStatus": "demo-legacy",
+    "sourceUrl": "https://dimraeth.wiki.gg/wiki/Physical_spells"
+  },
+  {
+    "id": "power-of-the-wild",
+    "name": "Power Of The Wild",
+    "element": "Nature",
+    "damageType": null,
+    "roles": [
+      "Buff",
+      "Utility"
+    ],
+    "source": "Unknown",
+    "statusEffect": null,
+    "dataStatus": "demo-legacy",
+    "sourceUrl": "https://dimraeth.wiki.gg/wiki/Nature_spells"
+  },
+  {
+    "id": "pulverize",
+    "name": "Pulverize",
+    "element": "Rage",
+    "damageType": "Blunt",
+    "roles": [
+      "Damage",
+      "AoE"
+    ],
+    "source": "Class",
+    "statusEffect": null,
+    "dataStatus": "demo-legacy",
+    "sourceUrl": "https://dimraeth.wiki.gg/wiki/Rage_spells"
+  },
+  {
+    "id": "quick-jab",
+    "name": "Quick Jab",
+    "element": "Physical",
+    "damageType": "Blunt",
+    "roles": [
+      "Damage"
+    ],
+    "source": "Class",
+    "statusEffect": null,
+    "dataStatus": "demo-legacy",
+    "sourceUrl": "https://dimraeth.wiki.gg/wiki/Physical_spells"
+  },
+  {
+    "id": "raging-vortex",
+    "name": "Raging Vortex",
+    "element": "Rage",
+    "damageType": "Strike",
+    "roles": [
+      "Damage",
+      "AoE"
+    ],
+    "source": "Race",
+    "statusEffect": null,
+    "dataStatus": "demo-legacy",
+    "sourceUrl": "https://dimraeth.wiki.gg/wiki/Rage_spells"
+  },
+  {
+    "id": "rejection",
+    "name": "Rejection",
+    "element": "Aether",
+    "damageType": null,
+    "roles": [
+      "Control",
+      "Utility"
+    ],
+    "source": "Unknown",
+    "statusEffect": null,
+    "dataStatus": "demo-legacy",
+    "sourceUrl": "https://dimraeth.wiki.gg/wiki/Aether_spells"
+  },
+  {
+    "id": "retaliation",
+    "name": "Retaliation",
+    "element": "Rage",
+    "damageType": null,
+    "roles": [
+      "Defense",
+      "Utility"
+    ],
+    "source": "Unknown",
+    "statusEffect": null,
+    "dataStatus": "demo-legacy",
+    "sourceUrl": "https://dimraeth.wiki.gg/wiki/Rage_spells"
+  },
+  {
+    "id": "ripple",
+    "name": "Ripple",
+    "element": "Aether",
+    "damageType": "Ether",
+    "roles": [
+      "Damage",
+      "AoE"
+    ],
+    "source": "Unknown",
+    "statusEffect": null,
+    "dataStatus": "demo-legacy",
+    "sourceUrl": "https://dimraeth.wiki.gg/wiki/Aether_spells"
+  },
+  {
+    "id": "savage-claw",
+    "name": "Savage Claw",
+    "element": "Physical",
+    "damageType": "Strike",
+    "roles": [
+      "Damage",
+      "Status"
+    ],
+    "source": "Spellbook",
+    "statusEffect": "Bleeding",
+    "dataStatus": "demo-legacy",
+    "sourceUrl": "https://dimraeth.wiki.gg/wiki/Physical_spells"
+  },
+  {
+    "id": "seed-bomb",
+    "name": "Seed Bomb",
+    "element": "Decay",
+    "damageType": "Decay",
+    "roles": [
+      "Damage",
+      "AoE"
+    ],
+    "source": "Spellbook",
+    "statusEffect": null,
+    "dataStatus": "demo-legacy",
+    "sourceUrl": "https://dimraeth.wiki.gg/wiki/Decay_spells"
+  },
+  {
+    "id": "seismic-stampede",
+    "name": "Seismic Stampede",
+    "element": "Earth",
+    "damageType": "Blunt",
+    "roles": [
+      "Damage",
+      "AoE"
+    ],
+    "source": "Race",
+    "statusEffect": null,
+    "dataStatus": "demo-legacy",
+    "sourceUrl": "https://dimraeth.wiki.gg/wiki/Earth_spells"
+  },
+  {
+    "id": "shockwave",
+    "name": "Shockwave",
+    "element": "Earth",
+    "damageType": "Blunt",
+    "roles": [
+      "Damage",
+      "AoE"
+    ],
+    "source": "Unknown",
+    "statusEffect": null,
+    "dataStatus": "demo-legacy",
+    "sourceUrl": "https://dimraeth.wiki.gg/wiki/Earth_spells"
+  },
+  {
+    "id": "spirit-swap",
+    "name": "Spirit Swap",
+    "element": "Nature",
+    "damageType": null,
+    "roles": [
+      "Control",
+      "Mobility"
+    ],
+    "source": "Spellbook",
+    "statusEffect": null,
+    "dataStatus": "demo-legacy",
+    "sourceUrl": "https://dimraeth.wiki.gg/wiki/Nature_spells"
+  },
+  {
+    "id": "strong-straight",
+    "name": "Strong Straight",
+    "element": "Physical",
+    "damageType": "Blunt",
+    "roles": [
+      "Damage"
+    ],
+    "source": "Class",
+    "statusEffect": null,
+    "dataStatus": "demo-legacy",
+    "sourceUrl": "https://dimraeth.wiki.gg/wiki/Physical_spells"
+  },
+  {
+    "id": "tyrant-quake",
+    "name": "Tyrant Quake",
+    "element": "Earth",
+    "damageType": "Blunt",
+    "roles": [
+      "Damage",
+      "AoE"
+    ],
+    "source": "Race",
+    "statusEffect": null,
+    "dataStatus": "demo-legacy",
+    "sourceUrl": "https://dimraeth.wiki.gg/wiki/Earth_spells"
+  },
+  {
+    "id": "vehement-cleave",
+    "name": "Vehement Cleave",
+    "element": "Rage",
+    "damageType": "Strike",
+    "roles": [
+      "Damage",
+      "AoE"
+    ],
+    "source": "Race",
+    "statusEffect": null,
+    "dataStatus": "demo-legacy",
+    "sourceUrl": "https://dimraeth.wiki.gg/wiki/Rage_spells"
+  },
+  {
+    "id": "water-surge",
+    "name": "Water Surge",
+    "element": "Water",
+    "damageType": "Blunt",
+    "roles": [
+      "Damage",
+      "AoE"
+    ],
+    "source": "Spellbook",
+    "statusEffect": null,
+    "dataStatus": "demo-legacy",
+    "sourceUrl": "https://dimraeth.wiki.gg/wiki/Water_spells"
+  },
+  {
+    "id": "wave-strike",
+    "name": "Wave Strike",
+    "element": "Physical",
+    "damageType": "Strike",
+    "roles": [
+      "Damage",
+      "AoE"
+    ],
+    "source": "Race",
+    "statusEffect": null,
+    "dataStatus": "demo-legacy",
+    "sourceUrl": "https://dimraeth.wiki.gg/wiki/Physical_spells"
+  },
+  {
+    "id": "weapon-swap",
+    "name": "Weapon Swap",
+    "element": "Physical",
+    "damageType": "Strike / Thrust",
+    "roles": [
+      "Utility"
+    ],
+    "source": "Race",
+    "statusEffect": null,
+    "dataStatus": "demo-legacy",
+    "sourceUrl": "https://dimraeth.wiki.gg/wiki/Physical_spells"
+  }
+]

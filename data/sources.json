@@ -1,0 +1,30 @@
+[
+  {
+    "id": "steam-store",
+    "label": "Dimraeth on Steam",
+    "url": "https://store.steampowered.com/app/2402680/Dimraeth/",
+    "status": "ea-official",
+    "scope": "Current EA roster, five equipped spells, 300+ spell design, equipment and skill-tree scope."
+  },
+  {
+    "id": "steam-news",
+    "label": "Mudtek Steam News / Character Creation",
+    "url": "https://steamcommunity.com/app/2402680/allnews/",
+    "status": "developer-confirmed",
+    "scope": "Race + class archetypes, archetype examples, skill-tree philosophy and attribute scaling."
+  },
+  {
+    "id": "wikigg-spells",
+    "label": "Deprecated Dimraeth wiki.gg spell archive",
+    "url": "https://dimraeth.wiki.gg/wiki/Fire_spells",
+    "status": "demo-legacy",
+    "scope": "Historical Demo spell names, effects and modifier records. Requires EA re-verification."
+  },
+  {
+    "id": "wikigg-equipment",
+    "label": "Deprecated Dimraeth wiki.gg equipment archive",
+    "url": "https://dimraeth.wiki.gg/wiki/Equipment",
+    "status": "demo-legacy",
+    "scope": "Historical eight Demo equipment slots and 23 named Demo set records. Requires EA re-verification."
+  }
+]

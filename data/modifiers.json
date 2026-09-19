@@ -1,0 +1,498 @@
+[
+  {
+    "id": "fireball--explosive-fireball",
+    "spellId": "fireball",
+    "name": "Explosive Fireball",
+    "effect": "Explodes on impact and damages nearby enemies.",
+    "dataStatus": "demo-legacy",
+    "sourceUrl": "https://dimraeth.wiki.gg/wiki/Fire_spells"
+  },
+  {
+    "id": "fireball--nearcast-detonation",
+    "spellId": "fireball",
+    "name": "Nearcast Detonation",
+    "effect": "Greatly reduces range and increases damage by 25%.",
+    "dataStatus": "demo-legacy",
+    "sourceUrl": "https://dimraeth.wiki.gg/wiki/Fire_spells"
+  },
+  {
+    "id": "fireball--rapid-embers",
+    "spellId": "fireball",
+    "name": "Rapid Embers",
+    "effect": "Legacy Demo record: damage reduced by 75% and cooldown reduced by 40%.",
+    "dataStatus": "demo-legacy",
+    "sourceUrl": "https://dimraeth.wiki.gg/wiki/Fire_spells"
+  },
+  {
+    "id": "blizzard--icy-fortification",
+    "spellId": "blizzard",
+    "name": "Icy Fortification",
+    "effect": "Allies inside Blizzard gain Armor and Resistance.",
+    "dataStatus": "demo-legacy",
+    "sourceUrl": "https://dimraeth.wiki.gg/wiki/Ice_spells"
+  },
+  {
+    "id": "blizzard--soft-blizzard",
+    "spellId": "blizzard",
+    "name": "Soft Blizzard",
+    "effect": "Trades damage for stronger Chill application and a larger area.",
+    "dataStatus": "demo-legacy",
+    "sourceUrl": "https://dimraeth.wiki.gg/wiki/Ice_spells"
+  },
+  {
+    "id": "blizzard--frost-bite-blizzard",
+    "spellId": "blizzard",
+    "name": "Frost Bite Blizzard",
+    "effect": "Consumes Chill to increase damage.",
+    "dataStatus": "demo-legacy",
+    "sourceUrl": "https://dimraeth.wiki.gg/wiki/Ice_spells"
+  },
+  {
+    "id": "frost-glide--frost-armor",
+    "spellId": "frost-glide",
+    "name": "Frost Armor",
+    "effect": "Hitting enemies during Frost Glide grants Frost Armor stacks.",
+    "dataStatus": "demo-legacy",
+    "sourceUrl": "https://dimraeth.wiki.gg/wiki/Ice_spells"
+  },
+  {
+    "id": "frost-glide--cryo-surge",
+    "spellId": "frost-glide",
+    "name": "Cryo Surge",
+    "effect": "Releases a damaging Chill surge at the end of Frost Glide.",
+    "dataStatus": "demo-legacy",
+    "sourceUrl": "https://dimraeth.wiki.gg/wiki/Ice_spells"
+  },
+  {
+    "id": "frost-glide--shattering-step",
+    "spellId": "frost-glide",
+    "name": "Shattering Step",
+    "effect": "Consumes Chill stacks for increased damage.",
+    "dataStatus": "demo-legacy",
+    "sourceUrl": "https://dimraeth.wiki.gg/wiki/Ice_spells"
+  },
+  {
+    "id": "frost-javelin--frost-ward",
+    "spellId": "frost-javelin",
+    "name": "Frost Ward",
+    "effect": "Consumes Chill to grant Frost Armor.",
+    "dataStatus": "demo-legacy",
+    "sourceUrl": "https://dimraeth.wiki.gg/wiki/Ice_spells"
+  },
+  {
+    "id": "frost-javelin--shatter",
+    "spellId": "frost-javelin",
+    "name": "Shatter",
+    "effect": "Shatters on impact and deals cone damage behind the target.",
+    "dataStatus": "demo-legacy",
+    "sourceUrl": "https://dimraeth.wiki.gg/wiki/Ice_spells"
+  },
+  {
+    "id": "frost-javelin--icy-shockwave",
+    "spellId": "frost-javelin",
+    "name": "Icy Shockwave",
+    "effect": "Releases a shockwave on impact.",
+    "dataStatus": "demo-legacy",
+    "sourceUrl": "https://dimraeth.wiki.gg/wiki/Ice_spells"
+  },
+  {
+    "id": "boulder-toss--boulder-slam",
+    "spellId": "boulder-toss",
+    "name": "Boulder Slam",
+    "effect": "Reduces cooldown while significantly reducing range.",
+    "dataStatus": "demo-legacy",
+    "sourceUrl": "https://dimraeth.wiki.gg/wiki/Earth_spells"
+  },
+  {
+    "id": "boulder-toss--shattering-boulder",
+    "spellId": "boulder-toss",
+    "name": "Shattering Boulder",
+    "effect": "Shatters on impact into additional damaging fragments.",
+    "dataStatus": "demo-legacy",
+    "sourceUrl": "https://dimraeth.wiki.gg/wiki/Earth_spells"
+  },
+  {
+    "id": "boulder-toss--sharp-shrapnel",
+    "spellId": "boulder-toss",
+    "name": "Sharp Shrapnel",
+    "effect": "Fragments pierce and apply Bleeding.",
+    "dataStatus": "demo-legacy",
+    "sourceUrl": "https://dimraeth.wiki.gg/wiki/Earth_spells"
+  },
+  {
+    "id": "boulder-toss--oil-boulder",
+    "spellId": "boulder-toss",
+    "name": "Oil Boulder",
+    "effect": "Leaves an Oil Pool on impact.",
+    "dataStatus": "demo-legacy",
+    "sourceUrl": "https://dimraeth.wiki.gg/wiki/Earth_spells"
+  },
+  {
+    "id": "seismic-stampede--dazing-stampede",
+    "spellId": "seismic-stampede",
+    "name": "Dazing Stampede",
+    "effect": "Shockwaves Slow enemies.",
+    "dataStatus": "demo-legacy",
+    "sourceUrl": "https://dimraeth.wiki.gg/wiki/Earth_spells"
+  },
+  {
+    "id": "seismic-stampede--remote-stampede",
+    "spellId": "seismic-stampede",
+    "name": "Remote Stampede",
+    "effect": "Shockwaves trigger automatically on cast.",
+    "dataStatus": "demo-legacy",
+    "sourceUrl": "https://dimraeth.wiki.gg/wiki/Earth_spells"
+  },
+  {
+    "id": "tyrant-quake--reverse-quake",
+    "spellId": "tyrant-quake",
+    "name": "Reverse Quake",
+    "effect": "Reverses shockwave direction and pulls enemies inward.",
+    "dataStatus": "demo-legacy",
+    "sourceUrl": "https://dimraeth.wiki.gg/wiki/Earth_spells"
+  },
+  {
+    "id": "tyrant-quake--raging-quake",
+    "spellId": "tyrant-quake",
+    "name": "Raging Quake",
+    "effect": "Scales damage with Rage stacks.",
+    "dataStatus": "demo-legacy",
+    "sourceUrl": "https://dimraeth.wiki.gg/wiki/Earth_spells"
+  },
+  {
+    "id": "aimed-shot--serrated-arrow",
+    "spellId": "aimed-shot",
+    "name": "Serrated Arrow",
+    "effect": "Applies Bleeding stacks.",
+    "dataStatus": "demo-legacy",
+    "sourceUrl": "https://dimraeth.wiki.gg/wiki/Physical_spells"
+  },
+  {
+    "id": "aimed-shot--poison-laced-arrow",
+    "spellId": "aimed-shot",
+    "name": "Poison Laced Arrow",
+    "effect": "Converts the Bleeding direction into Poison.",
+    "dataStatus": "demo-legacy",
+    "sourceUrl": "https://dimraeth.wiki.gg/wiki/Physical_spells"
+  },
+  {
+    "id": "aimed-shot--broadhead-shot",
+    "spellId": "aimed-shot",
+    "name": "Broadhead Shot",
+    "effect": "Stops piercing and instead pushes enemies away.",
+    "dataStatus": "demo-legacy",
+    "sourceUrl": "https://dimraeth.wiki.gg/wiki/Physical_spells"
+  },
+  {
+    "id": "hail-of-arrows--poison-tips",
+    "spellId": "hail-of-arrows",
+    "name": "Poison Tips",
+    "effect": "Arrows apply Poison.",
+    "dataStatus": "demo-legacy",
+    "sourceUrl": "https://dimraeth.wiki.gg/wiki/Physical_spells"
+  },
+  {
+    "id": "hail-of-arrows--poison-pool",
+    "spellId": "hail-of-arrows",
+    "name": "Poison Pool",
+    "effect": "Arrows leave a Poison Pool.",
+    "dataStatus": "demo-legacy",
+    "sourceUrl": "https://dimraeth.wiki.gg/wiki/Physical_spells"
+  },
+  {
+    "id": "hunters-trap--explosive-trap",
+    "spellId": "hunters-trap",
+    "name": "Explosive Trap",
+    "effect": "Adds Fire damage and Burning on trigger.",
+    "dataStatus": "demo-legacy",
+    "sourceUrl": "https://dimraeth.wiki.gg/wiki/Physical_spells"
+  },
+  {
+    "id": "hunters-trap--freezing-trap",
+    "spellId": "hunters-trap",
+    "name": "Freezing Trap",
+    "effect": "Changes the trap toward Ice damage and Chill.",
+    "dataStatus": "demo-legacy",
+    "sourceUrl": "https://dimraeth.wiki.gg/wiki/Physical_spells"
+  },
+  {
+    "id": "multi-strike--extra-strikes",
+    "spellId": "multi-strike",
+    "name": "Extra Strikes",
+    "effect": "Adds additional strikes.",
+    "dataStatus": "demo-legacy",
+    "sourceUrl": "https://dimraeth.wiki.gg/wiki/Physical_spells"
+  },
+  {
+    "id": "multi-strike--shredding-strike",
+    "spellId": "multi-strike",
+    "name": "Shredding Strike",
+    "effect": "Reduces the target's Armor.",
+    "dataStatus": "demo-legacy",
+    "sourceUrl": "https://dimraeth.wiki.gg/wiki/Physical_spells"
+  },
+  {
+    "id": "power-hook--focused-hook",
+    "spellId": "power-hook",
+    "name": "Focused Hook",
+    "effect": "Doubles damage and cooldown.",
+    "dataStatus": "demo-legacy",
+    "sourceUrl": "https://dimraeth.wiki.gg/wiki/Physical_spells"
+  },
+  {
+    "id": "power-hook--enraging-hook",
+    "spellId": "power-hook",
+    "name": "Enraging Hook",
+    "effect": "Generates Rage for enemies hit.",
+    "dataStatus": "demo-legacy",
+    "sourceUrl": "https://dimraeth.wiki.gg/wiki/Physical_spells"
+  },
+  {
+    "id": "quick-jab--quick-strikes",
+    "spellId": "quick-jab",
+    "name": "Quick Strikes",
+    "effect": "Successive Quick Jabs increase the next hit's damage.",
+    "dataStatus": "demo-legacy",
+    "sourceUrl": "https://dimraeth.wiki.gg/wiki/Physical_spells"
+  },
+  {
+    "id": "quick-jab--cycling-strikes",
+    "spellId": "quick-jab",
+    "name": "Cycling Strikes",
+    "effect": "Hits reduce the cooldown of a random spell.",
+    "dataStatus": "demo-legacy",
+    "sourceUrl": "https://dimraeth.wiki.gg/wiki/Physical_spells"
+  },
+  {
+    "id": "quick-jab--recovering-strike",
+    "spellId": "quick-jab",
+    "name": "Recovering Strike",
+    "effect": "Restores Stamina on hit.",
+    "dataStatus": "demo-legacy",
+    "sourceUrl": "https://dimraeth.wiki.gg/wiki/Physical_spells"
+  },
+  {
+    "id": "strong-straight--straight-lunge",
+    "spellId": "strong-straight",
+    "name": "Straight Lunge",
+    "effect": "Adds a forward dash.",
+    "dataStatus": "demo-legacy",
+    "sourceUrl": "https://dimraeth.wiki.gg/wiki/Physical_spells"
+  },
+  {
+    "id": "strong-straight--auto-strike",
+    "spellId": "strong-straight",
+    "name": "Auto Strike",
+    "effect": "Charges automatically on cast.",
+    "dataStatus": "demo-legacy",
+    "sourceUrl": "https://dimraeth.wiki.gg/wiki/Physical_spells"
+  },
+  {
+    "id": "strong-straight--raging-strike",
+    "spellId": "strong-straight",
+    "name": "Raging Strike",
+    "effect": "Consumes Rage for additional damage.",
+    "dataStatus": "demo-legacy",
+    "sourceUrl": "https://dimraeth.wiki.gg/wiki/Physical_spells"
+  },
+  {
+    "id": "wave-strike--follow-up",
+    "spellId": "wave-strike",
+    "name": "Follow Up",
+    "effect": "A full charge enables a brief recast window.",
+    "dataStatus": "demo-legacy",
+    "sourceUrl": "https://dimraeth.wiki.gg/wiki/Physical_spells"
+  },
+  {
+    "id": "wave-strike--bloody-execute",
+    "spellId": "wave-strike",
+    "name": "Bloody Execute",
+    "effect": "Scales bonus damage with target Bleeding stacks.",
+    "dataStatus": "demo-legacy",
+    "sourceUrl": "https://dimraeth.wiki.gg/wiki/Physical_spells"
+  },
+  {
+    "id": "weapon-swap--versatile-warrior",
+    "spellId": "weapon-swap",
+    "name": "Versatile Warrior",
+    "effect": "Temporarily increases all damage after swapping.",
+    "dataStatus": "demo-legacy",
+    "sourceUrl": "https://dimraeth.wiki.gg/wiki/Physical_spells"
+  },
+  {
+    "id": "weapon-swap--support-versatility",
+    "spellId": "weapon-swap",
+    "name": "Support Versatility",
+    "effect": "Extends Versatile Warrior to nearby allies.",
+    "dataStatus": "demo-legacy",
+    "sourceUrl": "https://dimraeth.wiki.gg/wiki/Physical_spells"
+  },
+  {
+    "id": "cornu-charge--cornu-shockwave",
+    "spellId": "cornu-charge",
+    "name": "Cornu Shockwave",
+    "effect": "Creates a large impact shockwave.",
+    "dataStatus": "demo-legacy",
+    "sourceUrl": "https://dimraeth.wiki.gg/wiki/Rage_spells"
+  },
+  {
+    "id": "cornu-charge--stun-amp",
+    "spellId": "cornu-charge",
+    "name": "Stun Amp",
+    "effect": "Deals more damage to Stunned enemies.",
+    "dataStatus": "demo-legacy",
+    "sourceUrl": "https://dimraeth.wiki.gg/wiki/Rage_spells"
+  },
+  {
+    "id": "cornu-charge--enraging-charge",
+    "spellId": "cornu-charge",
+    "name": "Enraging Charge",
+    "effect": "Generates Rage on hit.",
+    "dataStatus": "demo-legacy",
+    "sourceUrl": "https://dimraeth.wiki.gg/wiki/Rage_spells"
+  },
+  {
+    "id": "cornu-charge--bloodscent-charge",
+    "spellId": "cornu-charge",
+    "name": "Bloodscent Charge",
+    "effect": "Refunds part of the cooldown against Bleeding enemies.",
+    "dataStatus": "demo-legacy",
+    "sourceUrl": "https://dimraeth.wiki.gg/wiki/Rage_spells"
+  },
+  {
+    "id": "frenzy--extended-frenzy",
+    "spellId": "frenzy",
+    "name": "Extended Frenzy",
+    "effect": "Consumes Rage to extend Frenzy duration.",
+    "dataStatus": "demo-legacy",
+    "sourceUrl": "https://dimraeth.wiki.gg/wiki/Rage_spells"
+  },
+  {
+    "id": "frenzy--battle-resolve",
+    "spellId": "frenzy",
+    "name": "Battle Resolve",
+    "effect": "Adds Armor and Resistance.",
+    "dataStatus": "demo-legacy",
+    "sourceUrl": "https://dimraeth.wiki.gg/wiki/Rage_spells"
+  },
+  {
+    "id": "furious-strike--rending-strike",
+    "spellId": "furious-strike",
+    "name": "Rending Strike",
+    "effect": "Applies Bleeding.",
+    "dataStatus": "demo-legacy",
+    "sourceUrl": "https://dimraeth.wiki.gg/wiki/Rage_spells"
+  },
+  {
+    "id": "furious-strike--reset-on-kill",
+    "spellId": "furious-strike",
+    "name": "Reset on Kill",
+    "effect": "Resets Furious Strike cooldown on kill.",
+    "dataStatus": "demo-legacy",
+    "sourceUrl": "https://dimraeth.wiki.gg/wiki/Rage_spells"
+  },
+  {
+    "id": "pulverize--shredding-pulverise",
+    "spellId": "pulverize",
+    "name": "Shredding Pulverise",
+    "effect": "Reduces enemy Armor.",
+    "dataStatus": "demo-legacy",
+    "sourceUrl": "https://dimraeth.wiki.gg/wiki/Rage_spells"
+  },
+  {
+    "id": "pulverize--raging-pulverise",
+    "spellId": "pulverize",
+    "name": "Raging Pulverise",
+    "effect": "Consumes Rage for increased damage.",
+    "dataStatus": "demo-legacy",
+    "sourceUrl": "https://dimraeth.wiki.gg/wiki/Rage_spells"
+  },
+  {
+    "id": "pulverize--enraging-pulverise",
+    "spellId": "pulverize",
+    "name": "Enraging Pulverise",
+    "effect": "Generates Rage per enemy hit.",
+    "dataStatus": "demo-legacy",
+    "sourceUrl": "https://dimraeth.wiki.gg/wiki/Rage_spells"
+  },
+  {
+    "id": "raging-vortex--bloody-vortex",
+    "spellId": "raging-vortex",
+    "name": "Bloody Vortex",
+    "effect": "Applies Bleeding to enemies hit.",
+    "dataStatus": "demo-legacy",
+    "sourceUrl": "https://dimraeth.wiki.gg/wiki/Rage_spells"
+  },
+  {
+    "id": "raging-vortex--concentrated-vortex",
+    "spellId": "raging-vortex",
+    "name": "Concentrated Vortex",
+    "effect": "Increases damage with a longer cooldown.",
+    "dataStatus": "demo-legacy",
+    "sourceUrl": "https://dimraeth.wiki.gg/wiki/Rage_spells"
+  },
+  {
+    "id": "raging-vortex--twister",
+    "spellId": "raging-vortex",
+    "name": "Twister",
+    "effect": "Changes the dash into a movable spinning effect.",
+    "dataStatus": "demo-legacy",
+    "sourceUrl": "https://dimraeth.wiki.gg/wiki/Rage_spells"
+  },
+  {
+    "id": "vehement-cleave--bloody-cleave",
+    "spellId": "vehement-cleave",
+    "name": "Bloody Cleave",
+    "effect": "Applies Bleeding.",
+    "dataStatus": "demo-legacy",
+    "sourceUrl": "https://dimraeth.wiki.gg/wiki/Rage_spells"
+  },
+  {
+    "id": "vehement-cleave--crippling-cleave",
+    "spellId": "vehement-cleave",
+    "name": "Crippling Cleave",
+    "effect": "Slows enemies hit.",
+    "dataStatus": "demo-legacy",
+    "sourceUrl": "https://dimraeth.wiki.gg/wiki/Rage_spells"
+  },
+  {
+    "id": "power-of-the-wild--feralbond",
+    "spellId": "power-of-the-wild",
+    "name": "Feralbond",
+    "effect": "Applies the buff to both caster and target.",
+    "dataStatus": "demo-legacy",
+    "sourceUrl": "https://dimraeth.wiki.gg/wiki/Nature_spells"
+  },
+  {
+    "id": "spirit-swap--swiftstep",
+    "spellId": "spirit-swap",
+    "name": "Swiftstep",
+    "effect": "Grants a speed burst to both swapped targets.",
+    "dataStatus": "demo-legacy",
+    "sourceUrl": "https://dimraeth.wiki.gg/wiki/Nature_spells"
+  },
+  {
+    "id": "entangling-roots--rootbloom",
+    "spellId": "entangling-roots",
+    "name": "Rootbloom",
+    "effect": "Summons three roots in a cone.",
+    "dataStatus": "demo-legacy",
+    "sourceUrl": "https://dimraeth.wiki.gg/wiki/Poison_spells"
+  },
+  {
+    "id": "seed-bomb--blightseed",
+    "spellId": "seed-bomb",
+    "name": "Blightseed",
+    "effect": "Seed bombs leave a poison pool on explosion.",
+    "dataStatus": "demo-legacy",
+    "sourceUrl": "https://dimraeth.wiki.gg/wiki/Decay_spells"
+  },
+  {
+    "id": "water-surge--tidestorm",
+    "spellId": "water-surge",
+    "name": "Tidestorm",
+    "effect": "Water Surge leaves a pool behind.",
+    "dataStatus": "demo-legacy",
+    "sourceUrl": "https://dimraeth.wiki.gg/wiki/Water_spells"
+  }
+]

@@ -1,0 +1,5 @@
+import fs from "node:fs/promises";import path from "node:path";
+const pages=["Equipment","Physical_spells","Fire_spells","Ice_spells","Earth_spells","Water_spells","Nature_spells","Aether_spells","Rage_spells","Poison_spells","Decay_spells","Heal_spells"];
+const out=path.join(process.cwd(),"data","raw","wikigg");await fs.mkdir(out,{recursive:true});
+for(const page of pages){const url="https://dimraeth.wiki.gg/api.php?action=parse&format=json&prop=wikitext&page="+encodeURIComponent(page);const r=await fetch(url,{headers:{"User-Agent":"Buildraeth/0.2 (+https://github.com/afterhours247/Buildraeth)"}});if(!r.ok)throw new Error(page+": HTTP "+r.status);const payload=await r.json();await fs.writeFile(path.join(out,page+".json"),JSON.stringify({fetchedAt:new Date().toISOString(),source:url,page,payload},null,2));console.log("fetched",page)}
+console.log("Raw snapshots updated. Review diffs manually before promoting facts into curated data.");

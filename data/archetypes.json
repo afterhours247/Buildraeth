@@ -1,0 +1,83 @@
+[
+  {
+    "id": "human-brawler",
+    "race": "Human",
+    "characterClass": "Brawler",
+    "name": null,
+    "note": null,
+    "dataStatus": "ea-official",
+    "sourceUrl": "https://store.steampowered.com/app/2402680/Dimraeth/"
+  },
+  {
+    "id": "human-mage",
+    "race": "Human",
+    "characterClass": "Mage",
+    "name": "Elemental Ranger",
+    "note": "Developer example: a Human Mage direction that turns existing fire into single-target pressure.",
+    "dataStatus": "developer-confirmed",
+    "sourceUrl": "https://steamcommunity.com/app/2402680/allnews/"
+  },
+  {
+    "id": "human-shadow",
+    "race": "Human",
+    "characterClass": "Shadow",
+    "name": null,
+    "note": null,
+    "dataStatus": "ea-official",
+    "sourceUrl": "https://store.steampowered.com/app/2402680/Dimraeth/"
+  },
+  {
+    "id": "minotaur-brawler",
+    "race": "Minotaur",
+    "characterClass": "Brawler",
+    "name": "Vanguard",
+    "note": "Developer-confirmed archetype example; Strength investment can also provide Stamina benefit.",
+    "dataStatus": "developer-confirmed",
+    "sourceUrl": "https://steamcommunity.com/app/2402680/allnews/"
+  },
+  {
+    "id": "minotaur-mage",
+    "race": "Minotaur",
+    "characterClass": "Mage",
+    "name": "Earthshaker",
+    "note": "Developer example: a Minotaur Mage direction around spreading fire and Burning interactions.",
+    "dataStatus": "developer-confirmed",
+    "sourceUrl": "https://steamcommunity.com/app/2402680/allnews/"
+  },
+  {
+    "id": "minotaur-shadow",
+    "race": "Minotaur",
+    "characterClass": "Shadow",
+    "name": null,
+    "note": null,
+    "dataStatus": "ea-official",
+    "sourceUrl": "https://store.steampowered.com/app/2402680/Dimraeth/"
+  },
+  {
+    "id": "elf-brawler",
+    "race": "Elf",
+    "characterClass": "Brawler",
+    "name": null,
+    "note": null,
+    "dataStatus": "ea-official",
+    "sourceUrl": "https://store.steampowered.com/app/2402680/Dimraeth/"
+  },
+  {
+    "id": "elf-mage",
+    "race": "Elf",
+    "characterClass": "Mage",
+    "name": null,
+    "note": null,
+    "dataStatus": "ea-official",
+    "sourceUrl": "https://store.steampowered.com/app/2402680/Dimraeth/"
+  },
+  {
+    "id": "elf-shadow",
+    "race": "Elf",
+    "characterClass": "Shadow",
+    "name": null,
+    "note": null,
+    "dataStatus": "ea-official",
+    "sourceUrl": "https://store.steampowered.com/app/2402680/Dimraeth/"
+  }
+]
