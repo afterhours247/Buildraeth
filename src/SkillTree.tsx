@@ -89,15 +89,17 @@ export default function SkillTree({ build, setBuild, spells, modifiers }: Props)
   };
 
   const equipSelected = () => {
-    if (!selected.spellId) return;
+    const selectedSpellId = selected.spellId;
+    if (!selectedSpellId) return;
+    const selectedModifierId = selected.modifierId;
     setBuild((current) => {
       const spellsNext = [...current.spells];
-      const existingIndex = spellsNext.findIndex((slot) => slot.spellId === selected.spellId);
+      const existingIndex = spellsNext.findIndex((slot) => slot.spellId === selectedSpellId);
       const index = existingIndex >= 0 ? existingIndex : spellsNext.findIndex((slot) => !slot.spellId);
       if (index < 0) return current;
       spellsNext[index] = {
-        spellId: selected.spellId,
-        modifierId: selected.modifierId ?? spellsNext[index].modifierId ?? "",
+        spellId: selectedSpellId,
+        modifierId: selectedModifierId ?? spellsNext[index].modifierId ?? "",
       };
       return { ...current, spells: spellsNext };
     });
