@@ -1,0 +1,96 @@
+[
+  {
+    "id": "burning-engine",
+    "title": "Burning Engine",
+    "subtitle": "Concept, not a tier-list recommendation",
+    "race": "Minotaur",
+    "characterClass": "Mage",
+    "spellIds": [
+      "fireball",
+      "dragons-breath",
+      "inferno",
+      "fireburst",
+      "conflagration"
+    ],
+    "setIds": [
+      "pyreweaver"
+    ],
+    "tags": [
+      "Fire",
+      "Burning",
+      "Concept"
+    ],
+    "note": "Uses documented Burning interactions and the legacy Pyreweaver direction. Recheck all values in the current EA client."
+  },
+  {
+    "id": "bleed-physical",
+    "title": "Bleed Physical",
+    "subtitle": "Legacy mechanic concept",
+    "race": "Human",
+    "characterClass": "Brawler",
+    "spellIds": [
+      "savage-claw",
+      "wave-strike",
+      "vehement-cleave",
+      "raging-vortex",
+      "aimed-shot"
+    ],
+    "setIds": [
+      "brutalclaw",
+      "gorehorn"
+    ],
+    "tags": [
+      "Physical",
+      "Bleeding",
+      "Concept"
+    ],
+    "note": "Historical Demo interactions only. Useful as a direction to test, not a current optimal build."
+  },
+  {
+    "id": "chill-control",
+    "title": "Chill Control",
+    "subtitle": "Legacy mechanic concept",
+    "race": "Elf",
+    "characterClass": "Mage",
+    "spellIds": [
+      "blizzard",
+      "frost-glide",
+      "frost-javelin",
+      "gust",
+      "barrier"
+    ],
+    "setIds": [
+      "frostward"
+    ],
+    "tags": [
+      "Ice",
+      "Chill",
+      "Control"
+    ],
+    "note": "Combines the documented Ice toolkit with a legacy defensive set interaction."
+  },
+  {
+    "id": "blunt-stun",
+    "title": "Blunt / Stun",
+    "subtitle": "Mechanic-first concept",
+    "race": "Minotaur",
+    "characterClass": "Brawler",
+    "spellIds": [
+      "cornu-charge",
+      "power-hook",
+      "strong-straight",
+      "pulverize",
+      "boulder-toss"
+    ],
+    "setIds": [
+      "ironfist",
+      "bullheart"
+    ],
+    "tags": [
+      "Blunt",
+      "Stun",
+      "Melee"
+    ],
+    "note": "A direction built around documented Blunt and interrupt tools. Current skill-tree placement is not encoded."
+  }
+]

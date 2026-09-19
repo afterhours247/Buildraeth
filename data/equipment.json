@@ -1,0 +1,215 @@
+{
+  "slots": [
+    {
+      "id": "amulet",
+      "name": "Amulet",
+      "dataStatus": "demo-legacy",
+      "sourceUrl": "https://dimraeth.wiki.gg/wiki/Equipment"
+    },
+    {
+      "id": "badge",
+      "name": "Badge",
+      "dataStatus": "demo-legacy",
+      "sourceUrl": "https://dimraeth.wiki.gg/wiki/Equipment"
+    },
+    {
+      "id": "belt",
+      "name": "Belt",
+      "dataStatus": "demo-legacy",
+      "sourceUrl": "https://dimraeth.wiki.gg/wiki/Equipment"
+    },
+    {
+      "id": "bracer",
+      "name": "Bracer",
+      "dataStatus": "demo-legacy",
+      "sourceUrl": "https://dimraeth.wiki.gg/wiki/Equipment"
+    },
+    {
+      "id": "charm",
+      "name": "Charm",
+      "dataStatus": "demo-legacy",
+      "sourceUrl": "https://dimraeth.wiki.gg/wiki/Equipment"
+    },
+    {
+      "id": "ring",
+      "name": "Ring",
+      "dataStatus": "demo-legacy",
+      "sourceUrl": "https://dimraeth.wiki.gg/wiki/Equipment"
+    },
+    {
+      "id": "rune",
+      "name": "Rune",
+      "dataStatus": "demo-legacy",
+      "sourceUrl": "https://dimraeth.wiki.gg/wiki/Equipment"
+    },
+    {
+      "id": "undercoat",
+      "name": "Undercoat",
+      "dataStatus": "demo-legacy",
+      "sourceUrl": "https://dimraeth.wiki.gg/wiki/Equipment"
+    }
+  ],
+  "sets": [
+    {
+      "id": "blightseed",
+      "name": "Blightseed",
+      "effect": "T3 Seedrot: Seed Bomb leaves a poison pool; T6 Seedstorm: throws a cluster of seeds.",
+      "dataStatus": "demo-legacy",
+      "sourceUrl": "https://dimraeth.wiki.gg/wiki/Equipment"
+    },
+    {
+      "id": "brutalclaw",
+      "name": "Brutalclaw",
+      "effect": "T3 Savage Claw applies 5 Bleed; T5 Savage Claw gains 33% damage.",
+      "dataStatus": "demo-legacy",
+      "sourceUrl": "https://dimraeth.wiki.gg/wiki/Equipment"
+    },
+    {
+      "id": "bullheart",
+      "name": "Bullheart",
+      "effect": "T5 Stonehide: Blunt hits grant 15 Armor for 5 seconds.",
+      "dataStatus": "demo-legacy",
+      "sourceUrl": "https://dimraeth.wiki.gg/wiki/Equipment"
+    },
+    {
+      "id": "calmdrift",
+      "name": "Calmdrift",
+      "effect": "T3 Health Regen +50% after taking damage; T5 raises the effect to +100%.",
+      "dataStatus": "demo-legacy",
+      "sourceUrl": "https://dimraeth.wiki.gg/wiki/Equipment"
+    },
+    {
+      "id": "chillhowl",
+      "name": "Chillhowl",
+      "effect": "T3 Howl fires Ice darts and applies Chill; T5 doubles the darts.",
+      "dataStatus": "demo-legacy",
+      "sourceUrl": "https://dimraeth.wiki.gg/wiki/Equipment"
+    },
+    {
+      "id": "convergence",
+      "name": "Convergence",
+      "effect": "T6 spending over 30 Concentration grants +20% Magic Damage for 5 seconds.",
+      "dataStatus": "demo-legacy",
+      "sourceUrl": "https://dimraeth.wiki.gg/wiki/Equipment"
+    },
+    {
+      "id": "feralbond",
+      "name": "Feralbond",
+      "effect": "T3 Power of the Wild affects self and target; T6 also nearby allies.",
+      "dataStatus": "demo-legacy",
+      "sourceUrl": "https://dimraeth.wiki.gg/wiki/Equipment"
+    },
+    {
+      "id": "frostward",
+      "name": "Frostward",
+      "effect": "T6 Chilled enemies deal 10% less damage to you.",
+      "dataStatus": "demo-legacy",
+      "sourceUrl": "https://dimraeth.wiki.gg/wiki/Equipment"
+    },
+    {
+      "id": "gorehorn",
+      "name": "Gorehorn",
+      "effect": "T5 Bleeding enemies take 12% more Physical Damage from you.",
+      "dataStatus": "demo-legacy",
+      "sourceUrl": "https://dimraeth.wiki.gg/wiki/Equipment"
+    },
+    {
+      "id": "ironfist",
+      "name": "Ironfist",
+      "effect": "T6 repeated Blunt Damage on one enemy grants +20% Physical Damage for 3 seconds.",
+      "dataStatus": "demo-legacy",
+      "sourceUrl": "https://dimraeth.wiki.gg/wiki/Equipment"
+    },
+    {
+      "id": "lifebloom",
+      "name": "Lifebloom",
+      "effect": "No clear Demo Set Bonus was recorded.",
+      "dataStatus": "demo-legacy",
+      "sourceUrl": "https://dimraeth.wiki.gg/wiki/Equipment"
+    },
+    {
+      "id": "lionspear",
+      "name": "Lionspear",
+      "effect": "T6 a Thrust critical grants +20% Thrust Damage for 5 seconds.",
+      "dataStatus": "demo-legacy",
+      "sourceUrl": "https://dimraeth.wiki.gg/wiki/Equipment"
+    },
+    {
+      "id": "momentum",
+      "name": "Momentum",
+      "effect": "T3 Dash briefly increases Movement Speed.",
+      "dataStatus": "demo-legacy",
+      "sourceUrl": "https://dimraeth.wiki.gg/wiki/Equipment"
+    },
+    {
+      "id": "pathweaver",
+      "name": "Pathweaver",
+      "effect": "T3 Physical and Magic Damage build the other type; T6 increases each stack.",
+      "dataStatus": "demo-legacy",
+      "sourceUrl": "https://dimraeth.wiki.gg/wiki/Equipment"
+    },
+    {
+      "id": "pitfighter",
+      "name": "Pitfighter",
+      "effect": "No clear Demo Set Bonus was recorded.",
+      "dataStatus": "demo-legacy",
+      "sourceUrl": "https://dimraeth.wiki.gg/wiki/Equipment"
+    },
+    {
+      "id": "pyreweaver",
+      "name": "Pyreweaver",
+      "effect": "T6 Burning enemies take 15% more damage from you.",
+      "dataStatus": "demo-legacy",
+      "sourceUrl": "https://dimraeth.wiki.gg/wiki/Equipment"
+    },
+    {
+      "id": "redsteel",
+      "name": "Redsteel",
+      "effect": "T6 after Dash, the next attack within 3 seconds gains 25% Physical Damage.",
+      "dataStatus": "demo-legacy",
+      "sourceUrl": "https://dimraeth.wiki.gg/wiki/Equipment"
+    },
+    {
+      "id": "rootbloom",
+      "name": "Rootbloom",
+      "effect": "T3 Roots summon three extra in a cone; T6 also applies additional Poison.",
+      "dataStatus": "demo-legacy",
+      "sourceUrl": "https://dimraeth.wiki.gg/wiki/Equipment"
+    },
+    {
+      "id": "rumbler",
+      "name": "Rumbler",
+      "effect": "T6 Dash grants +20% Physical Damage for 5 seconds.",
+      "dataStatus": "demo-legacy",
+      "sourceUrl": "https://dimraeth.wiki.gg/wiki/Equipment"
+    },
+    {
+      "id": "shieldline",
+      "name": "Shieldline",
+      "effect": "T6 Block grants +20% Strike Damage for 3 seconds.",
+      "dataStatus": "demo-legacy",
+      "sourceUrl": "https://dimraeth.wiki.gg/wiki/Equipment"
+    },
+    {
+      "id": "stonehoove",
+      "name": "Stonehoove",
+      "effect": "T6 taking over 30% max-health damage in one hit grants 25 Armor for 3 seconds.",
+      "dataStatus": "demo-legacy",
+      "sourceUrl": "https://dimraeth.wiki.gg/wiki/Equipment"
+    },
+    {
+      "id": "swiftstep",
+      "name": "Swiftstep",
+      "effect": "T3 Swap grants Movement Speed to self and target; T6 also grants Armor.",
+      "dataStatus": "demo-legacy",
+      "sourceUrl": "https://dimraeth.wiki.gg/wiki/Equipment"
+    },
+    {
+      "id": "tidestorm",
+      "name": "Tidestorm",
+      "effect": "T3 Water Surge leaves a pool; T6 reduces its cooldown by 33%.",
+      "dataStatus": "demo-legacy",
+      "sourceUrl": "https://dimraeth.wiki.gg/wiki/Equipment"
+    }
+  ]
+}
