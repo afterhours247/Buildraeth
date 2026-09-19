@@ -1,0 +1,46 @@
+name: Skill tree correction
+description: Submit verified Early Access skill-tree node placement, text, prerequisite, or rank information.
+title: "[Tree] "
+labels: ["skill-tree"]
+body:
+  - type: dropdown
+    id: race
+    attributes:
+      label: Race
+      options:
+        - Human
+        - Elf
+        - Minotaur
+    validations:
+      required: true
+  - type: dropdown
+    id: class
+    attributes:
+      label: Class
+      options:
+        - Mage
+        - Brawler
+        - Shadow
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Dimraeth version / date observed
+      placeholder: EA 2026-09-19
+    validations:
+      required: true
+  - type: textarea
+    id: correction
+    attributes:
+      label: What should change?
+      description: Include node name, prerequisite/path, ranks or placement details.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence
+      description: Attach screenshots in this field after opening the issue, or link a stable public source.
+    validations:
+      required: true
